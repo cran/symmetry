@@ -1,10 +1,10 @@
 Package: symmetry
 Title: Testing for Symmetry of Data and Model Residuals
-Version: 0.2.1
+Version: 0.2.2
 Author: Blagoje Ivanović [aut, cre]
         Bojana Milošević [aut]
         Marko Obradović [aut]
-Date: 2020-02-27
+Date: 2022-08-06
 Maintainer: Blagoje Ivanović <blagoje_ivanovic@matf.bg.ac.rs>
 Description: Implementations of a large number of tests for symmetry and their 
     bootstrap variants, which can be used for testing the symmetry of random
@@ -17,14 +17,13 @@ Description: Implementations of a large number of tests for symmetry and their
 Depends: R (>= 3.1.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
 Imports: Rcpp, Rdpack
 RdMacros: Rdpack
 LinkingTo: Rcpp, RcppArmadillo
-RoxygenNote: 6.1.1
+RoxygenNote: 7.2.0
 SystemRequirements: C++11
 Suggests: knitr, rmarkdown, sn, fGarch, testthat
 NeedsCompilation: yes
-Packaged: 2020-02-27 23:16:20 UTC; blaza
+Packaged: 2022-08-06 22:34:27 UTC; blaza
 Repository: CRAN
-Date/Publication: 2020-02-28 07:00:03 UTC
+Date/Publication: 2022-08-08 13:40:04 UTC

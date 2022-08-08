@@ -3,7 +3,6 @@
 \docType{package}
 \name{symmetry}
 \alias{symmetry}
-\alias{symmetry-package}
 \title{symmetry: A package which implements tests for symmetry of random samples,
 linear models and generalized autoregressive conditional heteroskedasticity
 (GARCH) models}

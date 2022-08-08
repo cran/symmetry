@@ -9,16 +9,37 @@
 \usage{
 symmetry_test(x, ...)
 
-\method{symmetry_test}{default}(x, stat, mu = NULL, bootstrap = TRUE,
-  B = 1000, boot_method = c("sign", "reflect"), trim = 0, k = 0,
-  ...)
+\method{symmetry_test}{default}(
+  x,
+  stat,
+  mu = NULL,
+  bootstrap = TRUE,
+  B = 1000,
+  boot_method = c("sign", "reflect"),
+  trim = 0,
+  k = 0,
+  ...
+)
 
-\method{symmetry_test}{lm}(x, stat, B = 1000, boot_method = c("sign",
-  "reflect"), k = 0, ...)
+\method{symmetry_test}{lm}(
+  x,
+  stat,
+  B = 1000,
+  boot_method = c("sign", "reflect"),
+  k = 0,
+  ...
+)
 
-\method{symmetry_test}{fGARCH}(x, stat, B = 1000, burn = 0,
-  boot_method = c("sign", "reflect"), k = 0, approximate = FALSE,
-  ...)
+\method{symmetry_test}{fGARCH}(
+  x,
+  stat,
+  B = 1000,
+  burn = 0,
+  boot_method = c("sign", "reflect"),
+  k = 0,
+  approximate = FALSE,
+  ...
+)
 }
 \arguments{
 \item{x}{an object of class numeric, lm or fGARCH}
@@ -115,7 +136,7 @@ specskew19 = fGarch::garchSpec(model = list(omega = 0.1,
 x <- fGarch::garchSim(specskew19, n = 500)
 g <- fGarch::garchFit(~garch(1,1), x, cond.dist = "QMLE",
               include.mean = FALSE, trace = FALSE)
-\donttest{symmetry_test(g, "CH", B=400, burn = 100)} # slower
+\donttest{symmetry_test(g, "FM", B=400, burn = 100)} # slower
 \donttest{symmetry_test(g, "FM", B=400, burn = 100, approximate = TRUE)}
 
 }

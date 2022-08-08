@@ -1,7 +1,7 @@
-b39c4e138ae50985465554b61f935988 *DESCRIPTION
+4c259d2a4b7ed024d42505e2f809a75f *DESCRIPTION
 c8faeaf5025b6c407b77c7ae36ab65af *LICENSE
 8671aa17e0200a97749b63e71b58728c *NAMESPACE
-66dc3c83986daceced4aa8a4ab8b3689 *NEWS.md
+986e94910995fdfceb5ea28cf653943e *NEWS.md
 4b2cf3f0a23ab4c6ffdb15368f17abff *R/AAA_statistics_docs.R
 d9ee019cce7045b09ba69a7102692c3b *R/B1statistic.R
 b897f58ec24cbbfb7bba7548b522ea54 *R/BH2statistic.R
@@ -29,7 +29,7 @@ bb301d638be270f9f652f70a3b8266f3 *R/NAKstatistic.R
 3987b90705db2bde7a513e633772b324 *R/distributions.R
 a0870c8816350a34966a9dbc719f99df *R/symmetry.R
 840f81e28ad5575749696ad7a25f5412 *R/symmetry_test.R
-bdaf1274ac4fd6b365c4fe565e711296 *build/partial.rdb
+77c7b0e89b6002c96da3dd118f814850 *build/partial.rdb
 9b2570fc935f9908628fed3a3abb7bcb *inst/CITATION
 c00d7f7d655181eddaa91ce2bcefedd4 *inst/REFERENCES.bib
 04b1372ab0b153fa9e9f1c703865c14e *inst/include/helpers.h
@@ -37,8 +37,8 @@ c00d7f7d655181eddaa91ce2bcefedd4 *inst/REFERENCES.bib
 ebfb1edac30ed19f4b8a301796da3235 *man/TestStatistics.Rd
 a6bd2a5f881bc758f53ddc90d8aa236c *man/rmixnorm.Rd
 888de55ada6973e46a5022c02418d9ec *man/rsl.Rd
-7c31877619f9f963c729a111d194247c *man/symmetry.Rd
-7324af7f54ad96940cb57ccd5593e5b9 *man/symmetry_test.Rd
+b0ccee4d3e0e22f17fba2f2d9dcd01d9 *man/symmetry.Rd
+53b75abf67dc5dda968cf086072999ed *man/symmetry_test.Rd
 dc1e0abd3550c29c1e10ecf32a199c91 *src/B1.cpp
 81387b2d13b765f33930cc9bb2b21aa0 *src/BH2.cpp
 41de0762c8635c3b88d101dd6b3f41c3 *src/BHC1.cpp
@@ -62,7 +62,7 @@ fccb9b9d311c1838d2cfcec26e4ad4e7 *src/NAC2.cpp
 5e228c635831833b4a748fae69683109 *src/NAI.cpp
 172b7ac56cde4cd0000c32a16ab003a2 *src/NAK.cpp
 46ff9f609736ab574585a6301857df2e *src/RW.cpp
-d67155e3b37711e84f61034e6f72a249 *src/RcppExports.cpp
+8b7ae8a0c0cfa8a64858e29edb279876 *src/RcppExports.cpp
 3c9c3eb7f8397316db4a1afd5c0953d6 *src/SGN.cpp
 340454f6f8b7945e0b8e99a21e2480df *src/WCX.cpp
 1f4e3db81fe7ea12e9477ccd39a72ee5 *src/bootstrap.cpp
