@@ -1,3 +1,7 @@
+## Version 0.2.3
+
+- Fixed "sign" bootstrap method to work around a non-zero known mean.
+
 ## Version 0.2.2
 
 - Minor fixes for CRAN

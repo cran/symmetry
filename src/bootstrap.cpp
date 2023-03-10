@@ -90,7 +90,7 @@ NumericVector randomize_sign(const NumericVector& X, double mu) {
       res[i] = -res[i];
     }
   }
-  return res;
+  return res + mu;
 }
 
 NumericVector sample_with_replacement(NumericVector x, int n) {
